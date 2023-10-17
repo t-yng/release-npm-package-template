@@ -5,6 +5,7 @@ const labelMapping = {
   refactor: "Type: Refactoring",
   perf: "Type: Performance",
   deps: "Type: Dependencies",
+  ci: "Type: CI",
   chore: "Type: Chore",
 };
 

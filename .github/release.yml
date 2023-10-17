@@ -21,6 +21,9 @@ changelog:
     - title: ⬆️ Update Dependencies
       labels:
         - 'Type: Dependencies'
+    - title: 👷 CI
+      labels:
+        - 'Type: CI'
     - title: 🔧 Chore
       labels:
         - 'Type: Chore'
