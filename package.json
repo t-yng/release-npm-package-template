@@ -1,0 +1,13 @@
+{
+  "name": "release-npm-package-templte",
+  "version": "0.0.0",
+  "repository": "https://github.com/t-yng/release-npm-package-template.git",
+  "author": "t-yng <t.yng.greenmonkey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'build package'"
+  },
+  "devDependencies": {
+    "octokit": "^3.1.1"
+  }
+}
