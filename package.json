@@ -1,6 +1,6 @@
 {
   "name": "release-npm-package-templte",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/t-yng/release-npm-package-template.git",
   "author": "t-yng <t.yng.greenmonkey@gmail.com>",
   "license": "MIT",
