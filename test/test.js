@@ -1,20 +1,21 @@
 const { Octokit } = require("octokit");
-const createReleasePrBody = require("../.github/scripts/createReleasePrBody");
+const addPrLabel = require("../.github/scripts/add-pr-label");
 
 const octokit = new Octokit({
-  auth: "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",
+  // Personal Access Token
+  auth: process.env.PAT,
 });
 
 (async () => {
-  const body = await createReleasePrBody({
+  await addPrLabel({
     context: {
-      repo: {
+      issue: {
         owner: "t-yng",
         repo: "release-npm-package-template",
+        number: 5,
       },
     },
     github: octokit,
+    branch: "chore/release-note-format",
   });
-
-  console.log(body);
 })();
